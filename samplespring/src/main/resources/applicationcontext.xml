@@ -4,4 +4,10 @@
 			xsi:schemaLocation="http://www.springframework.org/schema/beans
 			http://www.springframework.org/schema/beans/spring-beans.xsd"> 
 			
+	<bean name="customer" class="com.tnsif.samplespring.Customer">
+		<property name="id" value="101"></property>
+		<property name="name" value="Gaudham"></property>
+		<property name="city" value="Chennai"></property>
+	</bean>
+	
 </beans>

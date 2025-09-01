@@ -6,6 +6,7 @@ public class Customer {
 	private String city;
 	 //create reference for the interface..
 	private Shopping s1;
+	
 	public int getId() {
 		return id;
 	}
@@ -30,6 +31,11 @@ public class Customer {
 	public void setS1(Shopping s1) {
 		this.s1 = s1;
 	}
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", name=" + name + ", city=" + city + ", s1=" + s1 + "]";
+	}
+	
 	
 
 }
